@@ -1,0 +1,119 @@
+/*--------------------------------------------------------
+Start Style content
+----------------------------------------------------------*/
+/*--------------Section banner---------------------------*/
+.section-banner {
+    background-color: var(--text-head);
+}
+.section-banner h2 {
+    color: #ffff;
+}
+
+/*--------------Section Content---------------------------*/
+.section-content {
+    background-color: #f8f9fa;
+    padding-bottom: 40px;
+}
+
+/*--------------Section Comment---------------------------*/
+.section-comment {
+    background-color: #f8f9fa;
+    padding: 0px 15px 60px;
+}
+.comment-box {
+    width: 100%;
+    border-radius: 15px;
+    padding: 15px 15px 3px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0 0 0 /10%);
+}
+
+.comment-box h5 {
+    color: var(--text-head);
+}
+.comment-box smalldate {
+    font-size: 13px;
+}
+
+.comment-box .profile .img-icon {
+    height: 40px;
+    border-radius: 50%;
+    margin-top: -3px;
+}
+
+.comment-box img,
+.comment-box iframe {
+    max-width: 95% !important;
+}
+
+.comment-footer {
+    border-radius: 0px 0px 15px 15px;
+    background: var(--text-head);
+    color: #fff;
+}
+.comment-footer .btn {
+    font-size: 0.95rem;
+    font-weight: normal;
+}
+
+.comment-footer .btn-text {
+    color: #fff;
+    padding: 0px 5px;
+}
+.comment-footer .btn-text:hover {
+    color: #7ce9ff;
+}
+
+.btn-white {
+    padding: 0px 10px;
+    background: #fff;
+    color: var(--text-head);
+}
+.btn-white:hover {
+    background: #f8f9fa;
+    color: #0d6efd;
+}
+
+/*--------------------------------------------------------
+Start: Responsive
+----------------------------------------------------------*/
+/* Nest Hub*/
+@media (max-width: 1199px) {
+}
+
+/* Surface Pro 7*/
+@media (max-width: 991px) {
+}
+
+/* iPad Mini*/
+@media (max-width: 769px) {
+}
+
+/* Samsung Galaxy S8+  Horizontal*/
+@media (max-width: 767px) {
+}
+
+/* Surface Dup*/
+@media (max-width: 569px) {
+}
+
+/*iPhone XR*/
+@media (max-width: 481px) {
+}
+
+/*Galaxy S20 Ultra*/
+@media (max-width: 414px) {
+}
+
+/*iPhone SE*/
+@media (max-width: 376px) {
+}
+
+/* Galaxy Folde*/
+@media (max-width: 321px) {
+}
+
+/*--------------------------------------------------------
+    End: Responsive
+----------------------------------------------------------*/

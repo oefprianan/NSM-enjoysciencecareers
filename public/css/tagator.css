@@ -1,0 +1,28 @@
+.tagator_element,
+.tagator_input,
+.tagator_textlength,
+.tagator_tag,
+.tagator_option {
+    font-family: "Kanit-Regular", sans-serif !important;
+    font-size: 1rem;
+}
+.tagator_element {
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem !important;
+}
+.tagator_element:focus {
+    border-color: var(--primary-color-admin);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+.tagator_tag {
+    border-radius: 0.25rem;
+}
+.tagator_tag_remove {
+    padding: 4px;
+    font-size: 0.75rem;
+    line-height: normal;
+}

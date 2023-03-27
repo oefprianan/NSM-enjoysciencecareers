@@ -1,0 +1,562 @@
+﻿/*--------------------------------------------------------
+    Start Style
+----------------------------------------------------------*/
+.body-bg {
+    background-color: var(--theme-bg);
+    overflow: hidden;
+    max-width: 100%;
+}
+h3 {
+    color: var(--btn-bg);
+}
+p {
+    color: var(--text-head);
+}
+/* section {
+    padding-bottom: 0px;
+} */
+/*-------------- section-banner ---------------------------*/
+.section-banner {
+    padding: 0px;
+    background-color: #ffffff;
+    min-height: 480px;
+}
+
+.section-banner h1 {
+    display: inline-block;
+    color: #ffffff;
+    background: var(--btn-bg);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 30px 30px;
+    padding: 25px;
+}
+
+/*-------------- section Visualnote ------------------*/
+.section-visualnote {
+    padding: 0px;
+    background: transparent;
+    position: relative;
+    margin-top: -80px;
+}
+.section-visualnote:before {
+    content: "";
+    background: linear-gradient(180deg, #fceee3 40%, transparent 100%);
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    height: calc(100% - 80px);
+    width: 100%;
+    z-index: 0;
+}
+.section-visualnote .img-frame {
+    display: inline-block;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+/*-------------- section Description ------------------*/
+.section-description {
+    background-color: var(--theme-2-bg);
+}
+
+.section-description h2 {
+    display: inline-block;
+    color: #fff;
+    background: var(--btn-bg);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 20px 15px;
+    letter-spacing: 1px;
+}
+.section-description h2 > span {
+    font-size: 1.1em;
+}
+
+img.character {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+/*-------------- section role ------------------*/
+
+.section-role {
+    margin-top: 40px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.section-role:before {
+    content: "";
+    background: #fff;
+    position: absolute;
+    left: 10%;
+    top: 70px;
+    height: calc(100% - 120px);
+    width: 80%;
+    z-index: 0;
+    border-radius: 50px;
+}
+
+.section-role .image-head {
+    position: relative;
+}
+.section-role .image-head .img-head {
+    margin-top: 0px;
+}
+
+.section-role h5 {
+    z-index: 1;
+    position: relative;
+    color: var(--btn-bg);
+}
+.section-role ul {
+    padding-left: 0px;
+}
+.section-role ul li {
+    list-style: none;
+    position: relative;
+    padding: 0px 10px 10px 30px;
+}
+.section-role ul li:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    top: 10px;
+    left: 7px;
+    background: var(--btn-bg);
+    opacity: 0.3;
+}
+.section-role ul li p {
+    margin-bottom: 0px;
+}
+.section-role ul li .circle {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 15px;
+    height: 15px;
+    background: var(--btn-bg);
+    border-radius: 100px;
+}
+
+
+/*-------------Section-educate---------------------------*/
+.section-educate {
+    padding-top: 20px;
+    position: relative;
+}
+
+.section-educate:before {
+    content: "";
+    background: #fff;
+    position: absolute;
+    left: 10%;
+    top: 70px;
+    height: calc(100% - 120px);
+    width: 80%;
+    z-index: 0;
+    border-radius: 50px;
+}
+
+.section-educate .image-head {
+    position: relative;
+}
+.section-educate .image-head .img-head {
+    margin-top: 0px;
+}
+
+.section-educate h5 {
+    z-index: 1;
+    position: relative;
+    color: var(--btn-bg);
+}
+.section-educate ul {
+    padding-left: 0px;
+}
+.section-educate ul li {
+    list-style: none;
+    position: relative;
+    padding: 0px 10px 10px 30px;
+}
+.section-educate ul li:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    top: 10px;
+    left: 7px;
+    background: var(--btn-bg);
+    opacity: 0.3;
+}
+.section-educate ul li p {
+    margin-bottom: 0px;
+}
+.section-educate ul li .circle {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 15px;
+    height: 15px;
+    background: var(--btn-bg);
+    border-radius: 100px;
+}
+
+/* .border {
+    width: 340px;
+    height: 169px;
+    padding: 10px 0px;
+    background: #FFD7B1;
+    border-radius: 20px;
+} */
+
+.button-quiz {
+    width: 402px;
+    height: 69px;
+    background: var(--text-head);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 24px;
+    color: #fff;
+}
+
+/*-------------Section-other---------------------------*/
+.section-other {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+
+.section-other:before {
+    content: "";
+    background: #ffe0c8;
+    position: absolute;
+    left: 10%;
+    top: 70px;
+    height: calc(100% - 150px);
+    width: 80%;
+    z-index: 0;
+    border-radius: 50px;
+}
+
+.section-other h3 {
+    align-items: center;
+    color: #2459a9;
+    margin-bottom: 0px;
+}
+
+.section-other .border-text {
+    box-sizing: border-box;
+    width: 520px;
+    max-width: 100%;
+    padding: 25px;
+    background: #ffffff;
+    border: 2px solid #eb874d;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+.section-other .list {
+    position: relative;
+    padding-left: 22px;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+.section-other .list .circle {
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    background: var(--btn-bg);
+    border-radius: 100px;
+}
+.section-other .list p {
+    line-height: normal;
+}
+
+/*--------------Section-careerdetails --------------------------*/
+.section-careerdetails {
+    padding: 0px;
+}
+.section-careerdetails.img-left {
+    background: #fff5ed;
+}
+.section-careerdetails.img-right {
+    background: var(--theme-bg);
+}
+.section-careerdetails h3,
+.section-careerdetails h5 {
+    color: var(--text-head);
+}
+
+.border-img {
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8f9fa;
+}
+.border-img > img {
+    height: 280px;
+}
+.img-left .border-img {
+    border-radius: 0px 50% 50% 0px;
+    /* background: #fceee3; */
+}
+.img-right .border-img {
+    border-radius: 50% 0px 0px 50%;
+    /* background: #ffd7b1; */
+}
+.img-right > .row {
+    justify-content: end;
+}
+.content-farme {
+    width: calc(100% - 420px);
+}
+
+.img-left .content-farme {
+    padding: 50px 7% 50px 50px;
+}
+.img-right .content-farme {
+    padding: 50px 50px 50px 7%;
+}
+
+/* work-place */
+.work-place .content-farme p {
+    position: relative;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.work-place .content-farme p > .circle {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 15px;
+    height: 15px;
+    background: var(--btn-bg);
+    border-radius: 100px;
+}
+.work-place .content-farme p:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    top: 10px;
+    left: 6px;
+    background: #aaa;
+    opacity: 0.3;
+}
+.work-place .content-farme p:last-child:before {
+    height: 0px;
+}
+/*--------------Section-VDO---------------------------*/
+.section-vdo {
+    padding: 80px 0px;
+    background-color: #fff;
+}
+.section-vdo iframe {
+    width: 100%;
+    min-height: 540px;
+    display: block;
+    box-shadow: rgb(0 0 0 / 25%) -14px 16px 10px;
+}
+
+/*--------------Section-link---------------------------*/
+.section-link {
+    position: relative;
+    padding: 140px 10px;
+    background-color: #2459a9;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.section-link::before {
+    content: "";
+    background: #fff;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.1;
+    z-index: 0;
+}
+.section-link .btn-theme {
+    padding: 15px 100px;
+    font-size: 35px;
+    position: relative;
+    z-index: 1;
+    border: 5px solid #eb874d;
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 25%);
+}
+.section-link .btn-theme img {
+    margin-left: 20px;
+    height: 60px;
+}
+
+/*--------------Section-Content---------------------------*/
+.section-content {
+    padding-top: 80px;
+}
+.section-content h3 {
+    color: var(--text-head);
+}
+.section-content h5 {
+    font-size: 1.1rem;
+    overflow: visible;
+    text-overflow: unset;
+    display: block;
+    line-height: normal;
+    min-height: 82px;
+}
+/*--------------------------------------------------------
+Start: Responsive
+----------------------------------------------------------*/
+/* Nest Hub*/
+@media (max-width: 1199px) {
+    .section-vdo iframe {
+        min-height: 400px;
+    }
+}
+
+/* Surface Pro 7*/
+@media (max-width: 991px) {
+    .section-vdo iframe {
+        min-height: 340px;
+    }
+}
+
+/* iPad Mini*/
+@media (max-width: 769px) {
+    .section-educate:before,.section-role:before
+    .section-other:before {
+        width: 94%;
+        left: 3%;
+    }
+}
+
+/* Samsung Galaxy S8+  Horizontal*/
+@media (max-width: 749px) {
+    .section-banner h1 {
+        padding: 15px;
+        font-size: (1.325rem + 0.9vw);
+    }
+    .section-description h2 {
+        font-size: calc(1.3rem + 0.4vw);
+        padding: 10px 12px;
+    }
+    .section-role {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .border-img {
+        width: 300px;
+        height: 300px;
+        margin: 20px auto 0px;
+        border-radius: 100% !important;
+    }
+    .border-img > img {
+        width: 80%;
+        height: auto;
+    }
+
+    .content-farme {
+        text-align: center;
+        width: 90%;
+        margin: 20px auto 0px;
+        padding: 20px 30px !important;
+    }
+    .img-right .border-img {
+        order: 1;
+    }
+    .img-right .content-farme {
+        order: 2;
+    }
+
+    .work-place .content-farme {
+        text-align: left;
+        width: 80%;
+    }
+    .work-place .content-farme h3 {
+        text-align: center;
+    }
+
+    .section-vdo iframe {
+        min-height: 280px;
+    }
+    .section-link {
+        padding: 100px 10px;
+    }
+    .section-link .btn-theme {
+        padding: 15px 50px;
+    }
+}
+/* Surface Duo*/
+@media (max-width: 569px) {
+    .section-banner {
+        min-height: 280px;
+    }
+    /* .section-role .box {
+        padding: 15px 10px;
+        min-height: 40px;
+    } */
+
+    .section-educate,.section-role,
+    .section-other {
+        padding: 20px 20px 80px;
+    }
+    .section-educate:before,.section-role:before,
+    .section-other:before {
+        width: 98%;
+        left: 1%;
+    }
+}
+
+/*iPhone XR*/
+@media (max-width: 481px) {
+    img.character {
+        max-height: 240px;
+    }
+    .content-farme {
+        padding: 20px !important;
+    }
+    .section-link .btn-theme {
+        padding: 10px 20px;
+        font-size: 28px;
+    }
+    .section-vdo iframe {
+        height: auto;
+        min-height: 230px !important;
+    }
+}
+
+/*Galaxy S20 Ultra*/
+@media (max-width: 414px) {
+    .section-content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/*iPhone SE*/
+@media (max-width: 376px) {
+}
+
+/* Galaxy Folde*/
+@media (max-width: 321px) {
+}
+
+/*--------------------------------------------------------
+    End: Responsive
+----------------------------------------------------------*/

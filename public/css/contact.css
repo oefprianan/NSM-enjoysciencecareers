@@ -1,0 +1,326 @@
+:root {
+    --theme-1-bg: #5B82BD;
+    --theme-2-bg: #FFF8E9;
+    --btn-bg: #EB874D;
+    --text-head-contact: #FFFFFF;
+    --text-head: #2459A9;
+    --theme-banner-bg: #2459A9;
+    --border-card: #EB874D;
+    --theme-form-bg: #FCEEE3;
+    --theme-text-contact: #2459A9;
+    --btn-bg: #EB874D;
+    --text-black: #000000;
+}
+p {
+    margin-bottom: 20px;
+}
+
+.btn-form {
+    background-color: var(--btn-bg);
+    border-radius: 20px;
+    color: var(--text-btn);
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+.btn-form:hover {
+    background-color: var(--theme-text-contact);
+    color: var(--text-btn);
+}
+
+/*-------------- Section-All Contact layout ---------------------------*/
+
+.full-width.container {
+    width: 100% !important;
+    max-width: 100%;
+    padding: 0px 40px;
+}
+
+/*-------------- Section-1 layout Card contact information---------------------------*/
+.card-contact-sec1{
+    width: 100% !important;
+    max-width: 100%;
+    padding: 5px 40px;
+    border-radius: 20px;
+    border: 3px solid var(--border-card);
+    background-color: var(--text-head-contact);
+}
+
+.card-contact {
+    padding: 10px;
+    margin: 15px 0px;
+    color: var(--text-black);
+    /*    background-color: var(--theme-bg);*/
+}
+
+.item-contact:not(:last-child) {
+    border-right: 2px solid rgb(35 89 170 / 29%);
+}
+
+
+/*--------------------------------------------------------
+Start Style contact
+----------------------------------------------------------*/
+
+/*--------------Section-1 contact---------------------------*/
+.section-1-contact {
+    padding: 60px 100px 0px;
+    background-color: var(--theme-form-bg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 600px;
+    background-image: url(../image/background/bg-contact-sec1.png);
+}
+.section-1-contact .contact-head h2 {
+        color: var(--text-head-contact);
+        font-size: 40px
+}
+
+.section-1-contact .contact-head p {
+        color: var(--text-head-contact);
+        margin: 30px 0px;
+        font-size: 20px;
+}
+
+.contact-icon img{
+    height: 58px;
+}
+
+.section-1-contact .line {
+    display: inline-block;
+    width: 2px;
+    height: 100px;
+    background-color: var(--theme-text-contact);
+}
+
+
+/*--------------Section-2 location contact---------------------------*/
+.section-2-contact {
+    padding: 10px 100px 90px;
+    background-color: var(--theme-form-bg);
+}
+.section-2-contact h2{
+    color: var(--text-head);
+    font-size: 40px;
+}
+.section-2-contact iframe {
+    display: table;
+    margin: 30px auto 0px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+}
+
+
+/*--------------Section-3 contact---------------------------*/
+.section-3-contact {
+    padding: 60px;
+    background-color: var(--theme-form-bg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+    background-image: url(../image/background/bg-contact-sec4.png);
+}
+
+.section-3-contact img {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    margin: auto 50px;
+}
+
+.section-3-contact .form-contact {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: var(--text-head-contact);
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------
+Start: Responsive
+----------------------------------------------------------*/
+/* Nest Hub*/
+@media (max-width: 1199px) {
+    .section-3-contact img {
+        display: none;
+    }
+
+    .section-1-contact {
+        padding: 100px 100px 60px;
+    }
+
+    .item-contact:not(:last-child) {
+        border-right: none;
+        border-bottom: 2px solid rgb(35 89 170 / 29%);
+    }
+
+    .section-2-contact {
+        padding: 0px 100px;
+    }
+
+    .section-3-contact {
+        padding: 60px 0px;
+    }
+}
+
+
+/* Surface Pro 7*/
+@media (max-width: 991px) {
+    /*---- Nav ----*/
+    .navbar-brand {
+        margin-left: 80px;
+    }
+
+    .navbar-toggler {
+        position: fixed;
+        left: 15px;
+        top: 8px;
+    }
+    /*---- Nav Dropdown ----*/
+    nav .menu-right {
+        position: fixed;
+        right: 15px;
+        top:10px;
+    }
+
+    /*---- Nav Dropdown ----*/
+    .navbar .nav-item .dropdown-menu.show {
+        display: block !important;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        display: none !important;
+    }
+    .section-2-contact {
+        padding: 10px 100px ;
+    }
+}
+
+
+/* iPad Mini*/
+@media (max-width: 769px) {
+
+}
+
+
+/* Samsung Galaxy S8+  Horizontal*/
+@media (max-width: 767px) {
+
+}
+
+
+/* Surface Dup*/
+@media (max-width: 569px) {
+    .section-1-contact {
+        padding: 60px 30px 0px;
+    }
+    .section-3-contact img {
+        display: none;
+    }
+    .item-contact:not(:last-child) {
+        border-right: none;
+        border-bottom: 2px solid rgb(35 89 170 / 29%);
+    }
+    .section-3-contact {
+        padding: 0px 20px 60px;
+    }
+    .section-2-contact {
+        padding: 60px 30px 80px;
+    }
+    .full-width.container {
+         padding: 0px 0px; 
+    }
+}
+
+
+/*iPhone XR*/
+@media (max-width: 481px) {
+   
+}
+
+
+/*Galaxy S20 Ultra*/
+@media (max-width: 414px) {
+
+}
+
+
+/*iPhone SE*/
+@media (max-width: 376px) {
+    
+}
+
+
+/* Galaxy Folde*/
+@media (max-width: 321px) {
+    
+}
+
+/*--------------------------------------------------------
+    End: Responsive
+----------------------------------------------------------*/
+
+html {
+    scroll-behavior: smooth;
+}
+/*--- Style Scrollbar ---*/
+/*.custom-scrollbar-css::-webkit-scrollbar {
+    width: 4px;
+}
+
+.custom-scrollbar-css::-webkit-scrollbar {
+    height: 4px;
+}
+
+.custom-scrollbar-css::-webkit-scrollbar-track {
+    background: #e3e3e3;
+}
+
+.custom-scrollbar-css::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: #737373;
+}*/
+
+/*--- Style Placeholder ---*/
+::-webkit-input-placeholder { /* Edge */
+    color: #d1d1d1 !important;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+    color: #d1d1d1 !important;
+}
+
+::placeholder {
+    color: #d1d1d1 !important;
+}
+
+

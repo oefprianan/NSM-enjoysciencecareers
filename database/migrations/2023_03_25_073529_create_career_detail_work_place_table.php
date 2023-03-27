@@ -1,0 +1,41 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('careers_detail_work_place', function (Blueprint $table) {
+            $table->bigIncrements('id')->unsigned()->comment('id');
+            $table->unsignedBigInteger('career_detail_main_id')->unsigned()->comment('รหัสดีเทลหลัก');
+
+            $table->unsignedBigInteger('career_detail_work_place_id')->unsigned()->comment('สถานที่ 1 = เอกชน, 2 = รัฐบาล');
+            $table->string('career_detail_work_place', 255)->nullable()->comment('สถานที่ทำงาน');
+
+            $table->timestamp('career_detail_work_place_at')->nullable()->comment('วันที่สร้าง');
+            $table->string('career_detail_work_place_by', 50)->nullable()->comment('สร้างโดยใคร');
+            $table->timestamp('career_detail_work_place_up_at')->nullable()->comment('วันที่แก้ไข');
+            $table->string('career_detail_work_place_up_by', 50)->nullable()->comment('แก้ไขโดยใคร');
+            $table->softDeletes('career_detail_work_place_del_at', 0)->nullable()->comment('วันที่ลบ');
+            $table->string('career_detail_work_place_del_by', 50)->nullable()->comment('ลบโดยใคร');
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('career_detail_work_place');
+    }
+};

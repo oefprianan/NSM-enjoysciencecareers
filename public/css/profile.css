@@ -1,0 +1,235 @@
+
+.dot-nonestyle {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+
+
+  /*--------------------------------------------------------
+  Start Style profile
+  ----------------------------------------------------------*/
+  .section-profile{
+    background:#f8f9fa;
+    background-size: cover;
+      background-position: center;
+      position: relative;
+      padding: 60px 30px;
+  }
+
+  .card-profile{
+    max-width: 90%;
+      padding: 0px 24px;
+      margin: 0px auto;
+  }
+
+  .card-profile-left {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 10px;
+    padding: 16px 0px;
+  }
+
+  .nav-pills .nav-link {
+    min-width: 100%;
+  }
+
+  .card-profile-right {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 10px;
+    padding: 30px;
+  }
+
+
+  /*--------------------------------------------------------
+  Start Style img profile
+  ----------------------------------------------------------*/
+  .card-inner-profile {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 90%;
+   }
+
+   .border-image-profile  {
+    width: fit-content;
+    margin: 0px auto;
+    position: relative;
+   }
+
+   .btn-image-profile {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: 0px auto;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0px;
+   }
+
+   .image-profile {
+    border: 0px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: url(../image/mockup/profile.png);
+    background-size: cover;
+    background-position: center center;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 10px;
+   }
+
+
+  .icon-profile {
+    background-color: rgb(48, 200, 214);
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 8px;
+    right: 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+
+  .text-icon-profile {
+    color: rgb(255, 255, 255);
+    margin-left: 1px;
+  }
+
+  .form-group {
+    border: 1px solid #ced4da;
+    padding: 5px;
+    border-radius: 6px;
+    width: auto;
+  }
+  .form-group:focus {
+    color: #212529;
+      background-color: #fff;
+      border-color: #86b7fe;
+      outline: 0;
+      box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+  }
+  .form-group input {
+    display: inline-block;
+    width: auto;
+    border: none;
+  }
+  .form-group input:focus {
+    box-shadow: none;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: #2359aa;
+    border-color: #2359aa;
+  }
+
+  .btn-primary:hover {
+    color: #fff;
+    background-color: var(--btn-bg);
+    border-color: var(--btn-bg);
+  }
+
+
+
+
+
+  /*--------------------------------------------------------
+  Start: Responsive
+  ----------------------------------------------------------*/
+  /* Nest Hub*/
+  @media (max-width: 1199px) {
+
+
+  }
+
+
+  /* Surface Pro 7*/
+  @media (max-width: 991px) {
+
+  }
+
+
+  /* iPad Mini*/
+  @media (max-width: 769px) {
+
+  }
+
+
+  /* Samsung Galaxy S8+  Horizontal*/
+  @media (max-width: 767px) {
+
+  }
+
+
+  /* Surface Dup*/
+  @media (max-width: 569px) {
+
+  }
+
+
+  /*iPhone XR*/
+  @media (max-width: 481px) {
+
+  }
+
+
+  /*Galaxy S20 Ultra*/
+  @media (max-width: 414px) {
+
+  }
+
+
+  /*iPhone SE*/
+  @media (max-width: 376px) {
+
+  }
+
+
+  /* Galaxy Folde*/
+  @media (max-width: 321px) {
+
+  }
+
+  /*--------------------------------------------------------
+      End: Responsive
+  ----------------------------------------------------------*/
+
+  html {
+      scroll-behavior: smooth;
+  }
+  /*--- Style Scrollbar ---*/
+  /*.custom-scrollbar-css::-webkit-scrollbar {
+      width: 4px;
+  }
+
+  .custom-scrollbar-css::-webkit-scrollbar {
+      height: 4px;
+  }
+
+  .custom-scrollbar-css::-webkit-scrollbar-track {
+      background: #e3e3e3;
+  }
+
+  .custom-scrollbar-css::-webkit-scrollbar-thumb {
+      border-radius: 1rem;
+      background-color: #737373;
+  }*/
+
+  /*--- Style Placeholder ---*/
+  ::-webkit-input-placeholder { /* Edge */
+      color: #d1d1d1 !important;
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer */
+      color: #d1d1d1 !important;
+  }
+
+  ::placeholder {
+      color: #d1d1d1 !important;
+  }
+
+

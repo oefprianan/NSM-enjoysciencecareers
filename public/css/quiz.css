@@ -1,0 +1,151 @@
+﻿/*--------------------------------------------------------
+Start Style 
+----------------------------------------------------------*/
+/*--------------Section banner---------------------------*/
+.section-banner {
+    background-color: #ffffff;
+    min-height: 210px;
+    padding: 60px 15px;
+}
+.section-banner h2 {
+    font-size: 40px;
+    padding-right: 120px;
+}
+.section-banner h2 > img {
+    height: 100px;
+    right: -10px;
+}
+
+/*--------------Section-2---------------------------*/
+.section-content {
+    padding: 0px 15px 60px;
+    background-color: transparent;
+    position: relative;
+    margin-top: -40px;
+}
+.section-content:before {
+    content: "";
+    background: var(--theme-bg);
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    height: calc(100% - 40px);
+    width: 100%;
+    z-index: 0;
+}
+
+.section-content .border h5 {
+    color: var(--text-head);
+    margin-top: 15px;
+    font-size: 1rem;
+    overflow: visible;
+    text-overflow: unset;
+    display: block;
+}
+
+.section-content .border {
+    width: 100%;
+    padding: 10px 10px 5px;
+    background: #fff8f4;
+    border-radius: 20px;
+    margin: 8px 0px;
+    position: relative;
+    z-index: 1;
+    border: none !important;
+}
+
+.section-content .border > img {
+    height: 60px;
+}
+
+.btn-quiz {
+    background: var(--text-head);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 12px 40px;
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.btn-quiz > img {
+    filter: brightness(0) invert(1);
+    height: 40px;
+    margin-left: 10px;
+    transition: all ease 0.3s;
+}
+.btn-quiz:hover > img {
+    margin-left: 15px;
+    margin-right: -5px;
+}
+.btn-quiz:hover {
+    background-color: var(--btn-bg);
+    color: #fff;
+}
+
+/*--------------------------------------------------------
+Start: Responsive
+----------------------------------------------------------*/
+/* Nest Hub*/
+@media (max-width: 1199px) {
+}
+
+/* Surface Pro 7*/
+@media (max-width: 991px) {
+}
+
+/* iPad Mini*/
+@media (max-width: 769px) {
+}
+
+/* Samsung Galaxy S8+  Horizontal*/
+@media (max-width: 767px) {
+    .section-content .col-6 {
+        padding: 0px 4px;
+    }
+    .section-content .border {
+        display: flex;
+        margin: 4px 0px;
+        padding: 10px 6px;
+        text-align: left !important;
+        align-items: center;
+    }
+    .section-content .border h5 {
+        margin: 0px;
+    }
+    .section-content .border > img {
+        margin: 0px 10px;
+        height: 40px;
+        /* display: none; */
+    }
+    .btn-quiz {
+        font-size: 1.4rem;
+        padding: 10px 20px;
+    }
+}
+
+/* Surface Dup*/
+@media (max-width: 569px) {
+    .section-banner {
+        min-height: 200px;
+    }
+}
+
+/*iPhone XR*/
+@media (max-width: 481px) {
+}
+
+/*Galaxy S20 Ultra*/
+@media (max-width: 414px) {
+}
+
+/*iPhone SE*/
+@media (max-width: 376px) {
+}
+
+/* Galaxy Folde*/
+@media (max-width: 321px) {
+}
+
+/*--------------------------------------------------------
+    End: Responsive
+----------------------------------------------------------*/

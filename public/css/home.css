@@ -1,0 +1,335 @@
+/*---------------------------------------
+    Head Banner
+----------------------------------------*/
+.head-banner {
+    width: 100%;
+    display: block;
+    background: var(--theme-bg);
+}
+
+.head-banner .head-banner-slide {
+    max-height: 820px;
+    overflow: hidden;
+}
+
+/*------ Caption Banner ------*/
+/*.head-banner .item .caption {
+    position:absolute;
+    display:inline-block;
+    top:34%;
+    left:6%;
+}
+.head-banner .item .caption h1, .head-banner .item .caption p {
+    color: var(--text-btn);
+}
+.head-banner .item .caption h1 {
+    font-size: 60px;
+
+}
+.head-banner .item .caption p {
+    letter-spacing: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.head-banner .owl-item.active .caption h1 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+    animation-delay: 0.4s;
+}
+.head-banner .owl-item.active .caption p {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+    animation-delay: 0.9s;
+}*/
+
+.head-banner .owl-theme .owl-controls .owl-page {
+    display: inline-block;
+}
+
+.head-banner .owl-theme .owl-controls .owl-page span {
+    background: none repeat scroll 0 0 #869791;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    margin: 5px 7px;
+    opacity: 0.5;
+    width: 12px;
+}
+.head-banner .owl-theme .owl-nav [class*="owl-"] {
+    line-height: 10px !important;
+}
+.head-banner .owl-theme .owl-nav [class*="owl-"]:hover {
+    background: var(--btn-bg);
+}
+
+/*--------------------------------------------------------
+Start: Layout
+----------------------------------------------------------*/
+/*--- Show Card  ---*/
+.frame-padding {
+    padding: 0px 6%;
+}
+.card-career {
+    padding: 10px;
+    margin: 15px 0px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: var(--text-btn);
+}
+.card-career img {
+    margin-bottom: 15px;
+}
+.line-head {
+    position: relative;
+}
+
+/*--- section-quiz quiz ---------*/
+.section-quiz {
+    padding: 100px 0px 120px;
+    background-color: var(--text-head);
+    position: relative;
+}
+.section-quiz::before {
+    content: "";
+    background: #fff;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.1;
+    z-index: 0;
+}
+
+.section-quiz .border-quiz {
+    margin: 30px auto 0px;
+    width: 60%;
+    border: 6px solid var(--btn-bg);
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 60px 20px 40px;
+    z-index: 2;
+}
+
+.section-quiz .btn-theme {
+    margin-bottom: -110px;
+    padding: 10px 100px;
+    font-size: 30px;
+    z-index: 2;
+}
+
+/*--- section-career ---------*/
+.section-career {
+    padding: 60px 0px;
+    background-color: #fceee3;
+}
+.section-career .line-head:after {
+    content: "";
+    position: absolute;
+    left: 7%;
+    bottom: 10px;
+    width: 92%;
+    height: 3px;
+    background: #fff;
+}
+.section-career .text-head-career {
+    display: inline-block;
+    float: left;
+    color: var(--text-head);
+    min-width: 180px;
+    padding: 8px;
+    background: #ffffff;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.section-career .img-fluid {
+    width: auto;
+    max-height: 235px;
+    object-fit: contain;
+}
+
+/*--- Section-experience ---------*/
+.section-experience {
+    padding: 10px 0px 80px;
+    background-image: url(../image/background/bg-Section3.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.section-experience:before {
+    content: "";
+    position: absolute;
+    background: var(--theme-bg);
+    height: 60px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+.section-experience .img-fluid {
+    width: auto;
+    max-height: 240px;
+}
+
+/*--- section-scholarship ---------*/
+.section-scholarship {
+    padding: 60px 0px 30px;
+    background-color: #fceee3;
+}
+.section-scholarship .line-head:after {
+    content: "";
+    position: absolute;
+    left: 7%;
+    bottom: 45%;
+    width: 100%;
+    height: 3px;
+    background: var(--btn-bg);
+    z-index: 0;
+}
+
+.section-scholarship .text-head-scholarship {
+    display: inline-block;
+    float: left;
+    color: var(--text-head);
+    line-height: normal;
+    width: 100%;
+    margin-top: 7px;
+}
+
+.iconyellow {
+    display: inline-block;
+    float: left;
+    color: var(--text-head);
+    line-height: normal;
+    width: 220px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.text-head-scholarship {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+/*--- Section-job ---------*/
+.section-job {
+    padding: 30px 0px 0px;
+    background-color: #fceee3;
+}
+.section-job .text-head-scholarship {
+    display: inline-block;
+    float: left;
+    color: var(--text-head);
+    line-height: normal;
+    margin-top: 7px;
+}
+.section-job .line-head:after {
+    content: "";
+    position: absolute;
+    left: 7%;
+    bottom: 45%;
+    width: 100%;
+    height: 3px;
+    background: var(--btn-bg);
+    z-index: 0;
+}
+
+.section-job .text-head-scholarship {
+    display: inline-block;
+    float: left;
+    color: var(--text-head);
+    line-height: normal;
+    width: 100%;
+    margin-top: 7px;
+}
+.section-job .card-career img,
+.section-scholarship .card-career img {
+    width: auto;
+    max-height: 235px;
+    margin: 0 auto 15px;
+}
+/*--------------------------------------------------------
+Start: Responsive
+----------------------------------------------------------*/
+/* Nest Hub*/
+@media (max-width: 1199px) {
+    /*------ Layout ------*/
+    .section-scholarship .line-head:after,
+    .section-job .line-head:after {
+        width: 90%;
+    }
+}
+
+/* Surface Pro 7*/
+@media (max-width: 991px) {
+    .section-quiz {
+        padding: 60px 0px 100px;
+    }
+    .section-quiz .border-quiz {
+        width: 70%;
+    }
+}
+
+/* iPad Mini*/
+@media (max-width: 769px) {
+    .section-quiz .btn-theme {
+        padding: 10px 50px;
+    }
+}
+
+/* Samsung Galaxy S8+  Horizontal*/
+@media (max-width: 767px) {
+    .section-quiz .border-quiz {
+        width: 80%;
+    }
+}
+/* Surface Duo*/
+@media (max-width: 569px) {
+    .section-quiz .border-quiz {
+        width: 90%;
+        padding: 60px 10px 40px;
+    }
+}
+/*iPhone XR*/
+@media (max-width: 481px) {
+    /*--- section-quiz ---*/
+    .section-quiz .border-quiz {
+        padding: 40px 10px 20px;
+    }
+    .section-quiz .btn-theme {
+        margin-top: -30px;
+        font-size: 22px;
+    }
+}
+/*Galaxy S20 Ultra*/
+@media (max-width: 414px) {
+    .section-career .text-head-career {
+        min-width: 140px;
+    }
+}
+
+/*iPhone SE*/
+@media (max-width: 376px) {
+    .frame-padding {
+        padding: 0px 7%;
+    }
+}
+/* Galaxy Folde*/
+@media (max-width: 321px) {
+}
+/*--------------------------------------------------------
+    End: Responsive
+----------------------------------------------------------*/

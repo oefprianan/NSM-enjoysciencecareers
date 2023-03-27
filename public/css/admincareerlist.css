@@ -1,0 +1,273 @@
+
+
+
+/*--------------------------------------------------------
+Start Style Admin
+----------------------------------------------------------*/
+
+/*--------------Section-1 admincareerlist---------------------------*/
+
+.page-link {
+    position: relative;
+    display: block;
+    color: var(--primary-color-admin);
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    
+    /* transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
+}
+
+.page-link:focus {
+    color:var(--primary-color-admin);
+    background-color: #fff;
+    border-color: var(--primary-color-admin);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem var(--bg-primary-color-admin);
+    
+}
+
+/*--------------------------------------------------------
+End Style Admin
+----------------------------------------------------------*/
+
+/*--- imgrow ---------*/
+.bg-row {
+    background-color: #fceee3;
+}
+/*--- imgrow ---------*/
+/*--- go on top ---------*/
+.btnGoTop {
+border-radius: 30px;
+padding: 4px 7px 10px 7px;
+border-color: transparent;
+opacity: .5;
+background: var(--btn-bg);
+margin-bottom: 12px;
+position: fixed;
+bottom: 6px;
+right: 15px;
+z-index: 99;
+border: none;
+outline: none;
+cursor: pointer;
+height: 34px;
+width: 34px;
+box-shadow: 5px 5px 10px rgb(0 0 0 / .2);
+transition: all ease 0.3s;
+text-align: center;
+overflow: hidden;
+}
+
+.btnGoTop img {
+    position: absolute;
+    left: 7px;
+    top: 6px;
+    height: 18px;
+}
+
+.btnGoTop:before {
+    content: '';
+    position: absolute;
+    background: var(--btn-bg);
+    height: 0;
+    width: 100%;
+    left: 0px;
+    top: 100px;
+    transition: all ease .3;
+    opacity: 0;
+}
+
+.btnGoTop:hover {
+    opacity: .95;
+}
+
+.btnGoTop:hover:before {
+    top: 0px;
+    height: 100%;
+    opacity: 1;
+}
+
+/*--- Footer ---------*/
+footer {
+    padding: 30px;
+}
+.line{
+    width:370px
+}
+.ft-brand {
+    width: 300px;
+}
+.img-ft {
+    max-width:100%;
+    width:1000px;
+}
+
+.modal-footer-edit {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    border-top: 1px solid #dee2e6;
+    border-bottom-right-radius: calc(0.3rem - 1px);
+    border-bottom-left-radius: calc(0.3rem - 1px);
+}
+
+.modal-footer-delete {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    border-top: 1px solid #dee2e6;
+    border-bottom-right-radius: calc(0.3rem - 1px);
+    border-bottom-left-radius: calc(0.3rem - 1px);
+}
+/* i {
+    font-size: 18px;
+    margin-right: 3px;
+} */
+/*--------------------------------------------------------
+Start: Responsive
+----------------------------------------------------------*/
+/* Nest Hub*/
+@media (max-width: 1199px) {
+}
+
+
+/* Surface Pro 7*/
+@media (max-width: 991px) {
+    /*---- Nav ----*/
+    .navbar-brand {
+        margin-left: 80px;
+    }
+
+    .navbar-toggler {
+        position: fixed;
+        left: 15px;
+        top: 8px;
+    }
+    /*---- Nav Dropdown ----*/
+    nav .menu-right {
+        position: fixed;
+        right: 15px;
+        /* top: 10px; */
+    }
+
+    /*---- Nav Dropdown ----*/
+    .navbar .nav-item .dropdown-menu.show {
+        display: block !important;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        display: none !important;
+    }
+
+    /* .section-2-admin {
+        padding: 10px 100px;
+    } */
+}
+
+
+/* iPad Mini*/
+@media (max-width: 769px) {
+}
+
+
+/* Samsung Galaxy S8+  Horizontal*/
+@media (max-width: 767px) {
+}
+
+
+/* Surface Dup*/
+@media (max-width: 569px) {
+    .section-1-content {
+        padding: 100px 30px;
+    }
+    .card-content-sec1 {
+        max-width: 100%;
+        margin: 0px auto;
+    }
+    .card-content {
+        max-width: 100%;
+    }
+    .modal-footer {
+        justify-content: center;
+    }
+    .menu-right {
+       display: none;
+    }
+
+}
+
+
+/*iPhone XR*/
+@media (max-width: 481px) {
+    /*---- Nav ----*/
+    .navbar-toggler {
+        left: 5px;
+    }
+    .navbar-brand {
+        margin-left: 50px;
+    }
+    .logo {
+        padding: 10px 0px;
+    }
+}
+
+
+/*Galaxy S20 Ultra*/
+@media (max-width: 414px) {
+}
+
+
+/*iPhone SE*/
+@media (max-width: 376px) {
+}
+
+
+/* Galaxy Folde*/
+@media (max-width: 321px) {
+}
+
+/*--------------------------------------------------------
+    End: Responsive
+----------------------------------------------------------*/
+
+html {
+    scroll-behavior: smooth;
+}
+/*--- Style Scrollbar ---*/
+/*.custom-scrollbar-css::-webkit-scrollbar {
+    width: 4px;
+}
+
+.custom-scrollbar-css::-webkit-scrollbar {
+    height: 4px;
+}
+
+.custom-scrollbar-css::-webkit-scrollbar-track {
+    background: #e3e3e3;
+}
+
+.custom-scrollbar-css::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: #737373;
+}*/
+
+/*--- Style Placeholder ---*/
+::-webkit-input-placeholder { /* Edge */
+    color: #d1d1d1 !important;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+    color: #d1d1d1 !important;
+}
+
+::placeholder {
+    color: #d1d1d1 !important;
+}
+

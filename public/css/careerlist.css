@@ -1,0 +1,97 @@
+﻿/*--------------------------------------------------------
+    Start Style
+----------------------------------------------------------*/
+/*--------------Section banner---------------------------*/
+.section-banner {
+    background-color: #ffffff;
+}
+.section-banner h2 {
+    padding-right: 50px;
+}
+
+/*--- Card ---*/
+.card-body h5 {
+    font-size: 1.1rem;
+    line-height: normal;
+    text-overflow: unset;
+    display: block;
+    min-height: 82px;
+}
+.card-body .tag {
+    font-size: 13px;
+    display: inline-block;
+    border-radius: 30px;
+    background: #fff;
+    color: #0d6efd;
+    padding: 0px 10px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------
+Start: Responsive
+----------------------------------------------------------*/
+/* Nest Hub*/
+@media (max-width: 1199px) {
+}
+
+
+/* Surface Pro 7*/
+@media (max-width: 991px) {
+
+}
+
+
+/* iPad Mini*/
+@media (max-width: 769px) {
+}
+
+
+/* Samsung Galaxy S8+  Horizontal*/
+@media (max-width: 767px) {
+
+}
+
+
+/* Surface Dup*/
+@media (max-width: 569px) {
+}
+
+
+/*iPhone XR*/
+@media (max-width: 481px) {
+}
+
+
+/*Galaxy S20 Ultra*/
+@media (max-width: 414px) {
+}
+
+
+/*iPhone SE*/
+@media (max-width: 376px) {
+}
+
+
+/* Galaxy Folde*/
+@media (max-width: 321px) {
+}
+
+/*--------------------------------------------------------
+    End: Responsive
+----------------------------------------------------------

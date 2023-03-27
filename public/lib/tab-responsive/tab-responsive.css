@@ -1,0 +1,85 @@
+@media (max-width: 767px) {
+    .nav-pills {
+        max-width: 100%;
+        /* width: 400px; */
+        min-width: 270px;
+        background: #fff;
+        border-radius: 20px;
+        /* border: 1px solid #dddddd; */
+        overflow: hidden;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        /* min-height: 50px; */
+    }
+
+    .nav-pills::after {
+        content: "☰";
+        position: absolute;
+        top: 11px;
+        left: 15px;
+        z-index: 2;
+        color: #fff;
+        pointer-events: none;
+    }
+
+    .nav-pills li.nav-item {
+        padding: 0px !important;
+    }
+
+    .nav-pills li > .nav-link {
+        padding: 12px 10px 12px 45px !important;
+        text-align: left;
+    }
+
+    .nav-pills.open .nav-link {
+        position: relative;
+        display: block !important;
+        border-bottom: 1px solid #f5f5f5;
+        border-radius: 0px;
+    }
+
+    .nav-pills.open li > .nav-link.active {
+        background-color: #eee;
+        border-radius: 30px;
+    }
+
+    .nav-pills li > .nav-link.active {
+        display: block !important;
+    }
+
+    .nav-pills li > .nav-link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        width: 100%;
+        height: auto;
+        display: none;
+        border-color: transparent;
+    }
+    .nav-pills li > .nav-link:focus,
+    .nav-pills li > .nav-link:hover,
+    .nav-pills li > .nav-link:active {
+        border-color: transparent;
+    }
+
+    .nav-pills li > .nav-link.active {
+        display: block;
+        border-color: transparent;
+        position: relative;
+        z-index: 1;
+        background: #fff;
+    }
+
+    .nav-pills li .nav-link.active {
+        color: var(--text-head);
+        background: transparent;
+        /* display: block; */
+    }
+    /* .nav-pills:focus,
+    .nav-pills:hover,
+    .nav-pills:active {
+        border-color: transparent;
+    } */
+}

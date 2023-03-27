@@ -1,0 +1,285 @@
+/*--------------------------------------------------------
+Start Style login
+----------------------------------------------------------*/
+.section-login{
+    /* background: rgba(13,110,253,.25); */
+    background-image: url(../image/background/bg-contact-sec1.png);
+    background-size: cover;
+      background-position: center;
+      position: relative;
+  }
+
+  .section-login:before{
+    content: "";
+    position: absolute;
+    /* background: var(--text-head);
+    background-image:url('../image/quiz/bg-quizresult.png'); */
+    height: 70px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+  }
+
+
+  .section-login button{
+    width: 100%;
+  }
+
+  .login-text-link {
+    margin-top: 16px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .login-text-click {
+    color: rgb(0, 112, 210);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .login-text-link-2 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 24px;
+  }
+
+  .login-text-span {
+    margin-right: 8px;
+  }
+
+  .line-login {
+    font-size: 16px;
+    margin: 24px auto 16px;
+    text-align: center;
+    width: 272px;
+  }
+
+  .login-dividing-text {
+    position: relative;
+  }
+
+  .login-dividing-text::before {
+    left: 0;
+  }
+
+  .login-dividing-text::before, .login-dividing-text::after {
+    content: '';
+    display: block;
+    width: 88px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    background-color: #d2dde1;
+  }
+
+  .login-dividing-text::after {
+    right: 0;
+  }
+
+  .login-dividing-text::before, .login-dividing-text::after {
+    content: '';
+    display: block;
+    width: 88px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    background-color: #d2dde1;
+  }
+
+  .btn-login-icon{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 17.5px;
+    text-align: center;
+    line-height: 45px;
+    min-width: 140px;
+    text-decoration: none;
+    cursor: pointer;
+    color: darkgray;
+    border: 2px solid rgb(240, 244, 249);
+    border-radius: 4px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 8px;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #2359aa;
+    border-color: #2359aa;
+    width: 100%;
+  }
+
+  .btn-primary:hover {
+    color: #fff;
+    background-color: var(--btn-bg);
+    border-color: var(--btn-bg);
+  }
+
+
+  .btn-login-text {
+    width: 16px;
+    margin-right: 8px;
+  }
+
+  .form-signin {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    margin: auto;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 15%);
+    /* border: 1px solid; */
+    border-radius: 20px;
+    background: var(--text-btn);
+  }
+
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+  }
+
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+  }
+
+  .btn-forgotpassword{
+    width: 40%;
+      margin: 0px auto;
+  }
+
+  /*--------------------------------------------------------
+  Start: Responsive
+  ----------------------------------------------------------*/
+  /* Nest Hub*/
+  @media (max-width: 1199px) {
+
+
+  }
+
+
+  /* Surface Pro 7*/
+  @media (max-width: 991px) {
+      /*---- Nav ----*/
+      .navbar-brand {
+          margin-left: 80px;
+      }
+
+      .navbar-toggler {
+          position: fixed;
+          left: 15px;
+          top: 8px;
+      }
+      /*---- Nav Dropdown ----*/
+      nav .menu-right {
+          position: fixed;
+          right: 15px;
+          top:10px;
+      }
+
+      /*---- Nav Dropdown ----*/
+      .navbar .nav-item .dropdown-menu.show {
+          display: block !important;
+      }
+
+      .navbar .nav-item .dropdown-menu {
+          display: none !important;
+      }
+  }
+
+
+  /* iPad Mini*/
+  @media (max-width: 769px) {
+
+  }
+
+
+  /* Samsung Galaxy S8+  Horizontal*/
+  @media (max-width: 767px) {
+      .row {
+          margin-left: 0px;
+          margin-right: 0px;
+      }
+  }
+
+
+  /* Surface Dup*/
+  @media (max-width: 569px) {
+
+  }
+
+
+  /*iPhone XR*/
+  @media (max-width: 481px) {
+    .form-signin {
+      width: 90%;
+  }
+
+  }
+
+
+  /*Galaxy S20 Ultra*/
+  @media (max-width: 414px) {
+
+  }
+
+
+  /*iPhone SE*/
+  @media (max-width: 376px) {
+
+  }
+
+
+  /* Galaxy Folde*/
+  @media (max-width: 321px) {
+
+  }
+
+  /*--------------------------------------------------------
+      End: Responsive
+  ----------------------------------------------------------*/
+
+  html {
+      scroll-behavior: smooth;
+  }
+  /*--- Style Scrollbar ---*/
+  /*.custom-scrollbar-css::-webkit-scrollbar {
+      width: 4px;
+  }
+
+  .custom-scrollbar-css::-webkit-scrollbar {
+      height: 4px;
+  }
+
+  .custom-scrollbar-css::-webkit-scrollbar-track {
+      background: #e3e3e3;
+  }
+
+  .custom-scrollbar-css::-webkit-scrollbar-thumb {
+      border-radius: 1rem;
+      background-color: #737373;
+  }*/
+
+  /*--- Style Placeholder ---*/
+  ::-webkit-input-placeholder { /* Edge */
+      color: #d1d1d1 !important;
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer */
+      color: #d1d1d1 !important;
+  }
+
+  ::placeholder {
+      color: #d1d1d1 !important;
+  }
+
+

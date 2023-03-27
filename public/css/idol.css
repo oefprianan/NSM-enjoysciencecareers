@@ -1,0 +1,74 @@
+/*--------------------------------------------------------
+Start Style content
+----------------------------------------------------------*/
+/*--------------Section banner---------------------------*/
+.section-banner {
+    background-color: var(--text-head);
+}
+.section-banner h2 {
+    color: #ffff;
+}
+/*--------------Section Content---------------------------*/
+.section-content {
+    background-color: #f8f9fa;
+}
+
+.card-body-content {
+    padding: 1rem;
+    background-color: rgb(209 209 209 / 27%);
+}
+
+.card-body-content p,
+smalldate {
+    font-size: 13px;
+}
+
+.card-body-content .img-icon {
+    height: 14px;
+    margin-right: 2px;
+    margin-top: -3px;
+    opacity: 0.7;
+}
+
+/*--------------------------------------------------------
+Start: Responsive
+----------------------------------------------------------*/
+/* Nest Hub*/
+@media (max-width: 1199px) {
+}
+
+/* Surface Pro 7*/
+@media (max-width: 991px) {
+}
+
+/* iPad Mini*/
+@media (max-width: 769px) {
+}
+
+/* Samsung Galaxy S8+  Horizontal*/
+@media (max-width: 767px) {
+}
+
+/* Surface Dup*/
+@media (max-width: 569px) {
+}
+
+/*iPhone XR*/
+@media (max-width: 481px) {
+}
+
+/*Galaxy S20 Ultra*/
+@media (max-width: 414px) {
+}
+
+/*iPhone SE*/
+@media (max-width: 376px) {
+}
+
+/* Galaxy Folde*/
+@media (max-width: 321px) {
+}
+
+/*--------------------------------------------------------
+    End: Responsive
+----------------------------------------------------------*/
